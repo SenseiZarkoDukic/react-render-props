@@ -99,7 +99,8 @@ export default function App() {
             />
           )}
         />
-
+      </div>
+      <div className="col-2">
         <ProductListWithToggles title="Products" items={products} />
       </div>
     </div>
