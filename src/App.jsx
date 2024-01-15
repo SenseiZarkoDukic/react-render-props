@@ -87,13 +87,6 @@ export default function App() {
 
       <div className="col-2">
         <List title="Products" items={products} />
-        <List>
-          <ul className="list">
-            {displayItems.map((product) => (
-              <ProductItem key={product.productName} product={product} />
-            ))}
-          </ul>
-        </List>
       </div>
     </div>
   );
