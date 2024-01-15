@@ -97,7 +97,7 @@ function ProductList({ title, items }) {
   return (
     <ul className="list">
       {items.map((product) => (
-        <ProductItem key={product.productName} product={product} />
+        <ProductItem key={product.productName} product={product} render />
       ))}
     </ul>
   );
