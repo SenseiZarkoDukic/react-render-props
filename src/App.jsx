@@ -87,6 +87,17 @@ export default function App() {
             <ProductItem key={product.productName} product={product} />
           )}
         />
+        <List
+          title="Companies"
+          items={companies}
+          render={(company) => (
+            <CompanyItem
+              key={company.companyName}
+              company={company}
+              defaultVisibility={false}
+            />
+          )}
+        />
       </div>
     </div>
   );
